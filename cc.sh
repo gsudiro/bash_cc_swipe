@@ -39,6 +39,6 @@ do
 
     echo "Card Number: $num"
     echo "Card Holder: $fname $lname"
-    echo "Experation Date: $exdate"
+    echo "Expiration Date: $exdate"
     echo "----------------------------"
 done
