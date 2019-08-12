@@ -17,7 +17,7 @@ info
 
 clear
 echo "Welcome"
-while [ 1 ]
+while [ true ]
 do
     echo "Please Swipe Your Card (Enter to Exit):"
     read data
@@ -25,7 +25,7 @@ do
     if [ "$data" = "" ]
     then 
         echo "Exiting"
-        exit 0
+        exit false
     fi
 
     clear
